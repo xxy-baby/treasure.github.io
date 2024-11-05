@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>寻宝游戏</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="plot0" class="plot-container">
+    <h2>在古老的图书馆里找到了第一个线索...</h2>
+    <img class="full-screen" src="0afe81ee-431e-4dd8-91c1-9628e0099f29.jpg" alt="在古老的图书馆里找到了第一个线索...">
+    <button onclick="showNextPlot(0)">顺着线索寻找</button>
+</div>
+
+<div id="plot1" class="plot-container hidden">
+    <h2>找到了一个神秘的箱子...</h2>
+    <img class="full-screen" src="4856b8c1-ef7f-40ce-9659-11bcdf65fdf0.jpg" alt="找到了一个神秘的箱子...">
+    <button onclick="showNextPlot(1)">打开箱子</button>
+</div>
+
+<div id="plot2" class="plot-container hidden">
+    <h2>发现复杂机关</h2>
+    <img class="full-screen" src="微信图片_20241105191612.jpg" alt="发现复杂的机关">
+    <button onclick="showNextPlot(2)">解开机关，发现地图</button>
+</div>
+
+<div id="plot3" class="plot-container hidden">
+    <h2>解读古老地图</h2>
+    <img class="full-screen" src="3d53087ccc5d0efd0bc116d9420c61b7.jpeg" alt="解读古老地图">
+    <button onclick="showNextPlot(3)">继续前进</button>
+</div>
+
+<div id="plot4" class="plot-container hidden">
+  <h2>遭遇神秘守卫，需要解密古老的密码...</h2>
+  <img class="full-screen" src="微信图片_20241105192223.jpg" alt="遭遇神秘守卫，需要解密古老的密码...">
+  <button onclick="showNextPlot(4)">输入密码</button>
+</div>
+
+<div id="plot5" class="plot-container hidden">
+    <h2>解码成功!线索在一座古老的神庙中...</h2>
+    <img class="full-screen" src="a298ad41ac23da134fa226a2820b8682.jpeg" alt="解码成功!线索在一座古老的神庙中...">
+    <button onclick="showNextPlot(5)">顺着线索进行前行</button>
+</div>
+
+<div id="plot6" class="plot-container hidden">
+    <h2>在古老的神庙中发现了隐藏的暗门...</h2>
+    <img class="full-screen" src="微信图片_20241105193839.jpg" alt="在古老的神庙中发现了隐藏的暗门...">
+    <button onclick="showNextPlot(6)">通过暗门</button>
+  </div>
+
+<div id="plot7" class="plot-container hidden">
+  <h2>穿越有毒的丛林，寻找隐藏的路径...</h2>
+  <img class="full-screen" src="微信图片_20241105193843.jpg" alt="穿越有毒的丛林，寻找隐藏的路径...">
+  <button onclick="showNextPlot(7)">找到小路</button>
+</div>
+
+
+<div id="plot8" class="plot-container hidden">
+    <h2>穿越迷宫</h2>
+    <img class="full-screen" src="微信图片_20241105193849.jpg" alt="穿越迷宫">
+    <button onclick="showNextPlot(8)">通过迷宫</button>
+</div>
+
+<div id="plot9" class="plot-container hidden">
+  <h2>躲避了隐藏的陷阱...</h2>
+  <img class="full-screen" src="微信图片_20241105193853.jpg" alt="躲避了隐藏的陷阱...">
+  <button onclick="showNextPlot(9)">下一步</button>
+</div>
+
+<div id="plot10" class="plot-container hidden">
+    <h2>恭喜!你找到了传说中的宝藏!</h2>
+    <img class="full-screen" src="微信图片_20241105193858.jpg" alt="恭喜!你找到了传说中的宝藏!">
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

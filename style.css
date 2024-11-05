@@ -1,0 +1,8 @@
+.hidden { display: none; }
+.plot-container { margin-bottom: 20px; }
+img.full-screen {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain; /* 图片完整显示，可能会有空白 */
+  }
+  
